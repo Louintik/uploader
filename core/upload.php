@@ -15,7 +15,7 @@ if (!is_dir('../uploads')){
 }
 
 $fileSize = $image["size"] / 1000000;
-$maxSize = 0.04; //Mb
+$maxSize = 0.5; //Mb
 if ($fileSize > $maxSize){
 	die('Incorrect file size');
 }
